@@ -219,17 +219,20 @@
         var tr = document.createElement("tr");
 
         var assetTd = document.createElement("td");
+        var link = document.createElement("a");
+        link.className = "asset-link";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = item.asset;
         if (item.url) {
-          var link = document.createElement("a");
-          link.className = "asset-link";
           link.href = item.url;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent = item.asset;
-          assetTd.appendChild(link);
         } else {
-          assetTd.textContent = item.asset;
+          // No stored direct link (true for most of the seeded history) --
+          // fall back to a Store search so every row stays clickable.
+          link.href = "https://assetstore.unity.com/search?q=" + encodeURIComponent(item.asset);
+          link.title = "No direct link saved -- searches the Asset Store for this name";
         }
+        assetTd.appendChild(link);
         if (item.purpose) {
           var purposeEl = document.createElement("span");
           purposeEl.className = "purpose";
