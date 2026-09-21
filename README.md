@@ -1,4 +1,4 @@
-# unity-asset-library
+# Unity Asset Logger - Mozilla Extension
 
 A live, auto-updating catalog of my Unity Asset Store purchases. This repo
 holds the data and a viewer page — it's never edited by hand, it's kept in
