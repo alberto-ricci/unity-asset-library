@@ -1,5 +1,47 @@
 [
   {
+    "id": "ebe5fd5d-33f8-4d80-9071-2295de08bd8e",
+    "publisher": "AAAbyssal Ababeel",
+    "asset": "RealStep – Dynamic Foot Placement",
+    "category": "Tools / Animation",
+    "purpose": "",
+    "tags": "tools, animation",
+    "size": "",
+    "purchaseDate": "2026-09-21",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/animation/realstep-dynamic-foot-placement-322927",
+    "status": "Active"
+  },
+  {
+    "id": "6a61d6ad-34ad-4200-a6d4-cb3430941bc8",
+    "publisher": "SISoxware Interactive",
+    "asset": "UMotion Community - Animation Editor",
+    "category": "Tools / Animation",
+    "purpose": "",
+    "tags": "tools, animation",
+    "size": "",
+    "purchaseDate": "2026-09-21",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/animation/umotion-community-animation-editor-95986",
+    "status": "Active"
+  },
+  {
+    "id": "bd2f8703-6010-44dc-9976-c9f3ce6d9235",
+    "publisher": "GGGiant Grey",
+    "asset": "PathGrid",
+    "category": "Tools / Level Design",
+    "purpose": "",
+    "tags": "tools, level design",
+    "size": "",
+    "purchaseDate": "2026-09-21",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/level-design/pathgrid-277374",
+    "status": "Active"
+  },
+  {
     "id": "8d6a1362-4ece-4d94-ab3d-7cf1b4989d85",
     "publisher": "PTPurrNet Team",
     "asset": "PurrNet: Multiplayer Networking",
