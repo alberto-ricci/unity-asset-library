@@ -1,5 +1,33 @@
 [
   {
+    "id": "955e7514-510d-4e42-b45f-3b32c83ad701",
+    "publisher": "MPMagic Pig Games / Infinity PBR",
+    "asset": "Magic Time - Control Time per Object (Local Time Scale) [AI + MCP Ready]",
+    "category": "Tools / Utilities",
+    "purpose": "",
+    "tags": "tools, utilities",
+    "size": "",
+    "purchaseDate": "2026-09-24",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/utilities/magic-time-control-time-per-object-local-time-scale-ai-mcp-ready-298494",
+    "status": "Active"
+  },
+  {
+    "id": "b0cc207f-4145-4372-b4d2-ecf0a276389f",
+    "publisher": "ggameVgames",
+    "asset": "Motorcycle Pack: Naked, Chopper, Police Bikes - Free",
+    "category": "3D / Vehicles / Land",
+    "purpose": "",
+    "tags": "3d, vehicles, land",
+    "size": "",
+    "purchaseDate": "2026-09-24",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/land/motorcycle-pack-naked-chopper-police-bikes-free-290881",
+    "status": "Active"
+  },
+  {
     "id": "ebe5fd5d-33f8-4d80-9071-2295de08bd8e",
     "publisher": "AAAbyssal Ababeel",
     "asset": "RealStep – Dynamic Foot Placement",
