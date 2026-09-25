@@ -1,5 +1,19 @@
 [
   {
+    "id": "8e90b322-f04f-427d-87bb-734b31c9b90e",
+    "publisher": "SWSector Warzone",
+    "asset": "Concrete Barriers Pack",
+    "category": "3D / Props",
+    "purpose": "",
+    "tags": "3d, props",
+    "size": "",
+    "purchaseDate": "2026-09-25",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/props/concrete-barriers-pack-401364",
+    "status": "Active"
+  },
+  {
     "id": "955e7514-510d-4e42-b45f-3b32c83ad701",
     "publisher": "MPMagic Pig Games / Infinity PBR",
     "asset": "Magic Time - Control Time per Object (Local Time Scale) [AI + MCP Ready]",
