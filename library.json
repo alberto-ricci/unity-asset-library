@@ -1,5 +1,33 @@
 [
   {
+    "id": "4a04f60c-fc5a-4d07-981b-d2af965054bf",
+    "publisher": "SGSICS Games",
+    "asset": "Police Car & Helicopter",
+    "category": "3D / Vehicles / Land",
+    "purpose": "",
+    "tags": "3d, vehicles, land",
+    "size": "",
+    "purchaseDate": "2026-09-28",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/land/police-car-helicopter-52496",
+    "status": "Active"
+  },
+  {
+    "id": "6acbd510-b973-47db-8bcf-8fef28686c59",
+    "publisher": "DADynamic Art",
+    "asset": "Low Poly Street Pack",
+    "category": "3D / Environments / Urban",
+    "purpose": "",
+    "tags": "3d, environments, urban",
+    "size": "",
+    "purchaseDate": "2026-09-28",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/environments/urban/low-poly-street-pack-67475",
+    "status": "Active"
+  },
+  {
     "id": "82ae4556-449d-4ec5-acb8-f352a67548d1",
     "publisher": "ATAdrift Team",
     "asset": "Food Pack - Low Poly Assets",
