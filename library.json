@@ -1,5 +1,47 @@
 [
   {
+    "id": "6d2d532f-7a18-414a-ba9f-a5c9321c578b",
+    "publisher": "LLeventGungor",
+    "asset": "Truck Levo v1",
+    "category": "3D / Vehicles",
+    "purpose": "",
+    "tags": "3d, vehicles",
+    "size": "",
+    "purchaseDate": "2026-10-06",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/truck-levo-v1-217735",
+    "status": "Active"
+  },
+  {
+    "id": "0f3550ac-029a-48f1-8d79-2a201f68d6ba",
+    "publisher": "PSPolygrunt Studios",
+    "asset": "POLYGRUNT - Construction Vehicles",
+    "category": "3D / Vehicles / Land",
+    "purpose": "",
+    "tags": "3d, vehicles, land",
+    "size": "",
+    "purchaseDate": "2026-10-06",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/land/polygrunt-construction-vehicles-168884",
+    "status": "Active"
+  },
+  {
+    "id": "177f4916-d400-4d4b-8c94-dc0595a4d255",
+    "publisher": "KKrazyFX",
+    "asset": "Garbage Truck HQ",
+    "category": "3D / Vehicles / Land",
+    "purpose": "",
+    "tags": "3d, vehicles, land",
+    "size": "",
+    "purchaseDate": "2026-10-06",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/land/garbage-truck-hq-70514",
+    "status": "Active"
+  },
+  {
     "id": "68fb4242-71f4-4c79-b35c-efafc3ca5996",
     "publisher": "FSFinite Machine Studio",
     "asset": "Advanced Zombie AI Pro",
