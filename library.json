@@ -1,5 +1,33 @@
 [
   {
+    "id": "68fb4242-71f4-4c79-b35c-efafc3ca5996",
+    "publisher": "FSFinite Machine Studio",
+    "asset": "Advanced Zombie AI Pro",
+    "category": "Tools / Behavior AI",
+    "purpose": "",
+    "tags": "tools, behavior ai",
+    "size": "",
+    "purchaseDate": "2026-10-06",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/behavior-ai/advanced-zombie-ai-pro-391558",
+    "status": "Active"
+  },
+  {
+    "id": "d444fe1a-3663-46f3-80b1-78b13a632d20",
+    "publisher": "Versatile Studio",
+    "asset": "Favorites",
+    "category": "",
+    "purpose": "",
+    "tags": "",
+    "size": "",
+    "purchaseDate": "2026-10-06",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/users/7971530412158/favorites",
+    "status": "Active"
+  },
+  {
     "id": "05eb42d7-0793-4dcc-ab8d-132e29c69dd9",
     "publisher": "ASAhmed Saed",
     "asset": "Car AI (Pathfinding& Vehicle Behaviour)",
