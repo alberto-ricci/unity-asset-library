@@ -1,5 +1,33 @@
 [
   {
+    "id": "f6e5e33c-ac43-41f9-9a57-7ca57ce80334",
+    "publisher": "MAMatei Ioan Alexandru",
+    "asset": "USA Real-World Heightmaps - Vol.1",
+    "category": "3D / Environments / Landscapes",
+    "purpose": "",
+    "tags": "3d, environments, landscapes",
+    "size": "",
+    "purchaseDate": "2026-10-09",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/environments/landscapes/usa-real-world-heightmaps-vol-1-250947",
+    "status": "Active"
+  },
+  {
+    "id": "06a01a64-1028-4c64-8770-81411b0f77a6",
+    "publisher": "Mixall studio",
+    "asset": "Modern restaurant - building and interior",
+    "category": "3D / Environments / Industrial",
+    "purpose": "",
+    "tags": "3d, environments, industrial",
+    "size": "",
+    "purchaseDate": "2026-10-09",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/3d/environments/industrial/modern-restaurant-building-and-interior-210254",
+    "status": "Active"
+  },
+  {
     "id": "30a02287-edf4-4de7-b620-4f521531e136",
     "publisher": "GAGame Seed Assets",
     "asset": "Rain Particles",
