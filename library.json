@@ -1,5 +1,33 @@
 [
   {
+    "id": "ca0b3759-f6af-49f8-81bf-bd684a9910e8",
+    "publisher": "MMyIndie.Games",
+    "asset": "FANTASTIC UI STARTER PACK",
+    "category": "2D / GUI / Icons",
+    "purpose": "",
+    "tags": "2d, gui, icons",
+    "size": "",
+    "purchaseDate": "2026-10-29",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/2d/gui/icons/fantastic-ui-starter-pack-123733",
+    "status": "Active"
+  },
+  {
+    "id": "69c64e87-d1c2-4073-9ac6-1e966c862061",
+    "publisher": "BHBlack Hammer",
+    "asset": "Fantasy Wooden GUI : Free",
+    "category": "2D / GUI",
+    "purpose": "",
+    "tags": "2d, gui",
+    "size": "",
+    "purchaseDate": "2026-10-29",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/2d/gui/fantasy-wooden-gui-free-103811",
+    "status": "Active"
+  },
+  {
     "id": "cb0de3a2-8c34-4fa3-ae9e-993036195efc",
     "publisher": "RARandom Art Attack",
     "asset": "Animated Dice",
