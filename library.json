@@ -1,5 +1,19 @@
 [
   {
+    "id": "47776c1d-190d-414d-8ac7-a0cabbfec6d7",
+    "publisher": "TSTeam Scalte",
+    "asset": "Instant Save & Load",
+    "category": "Tools / Utilities",
+    "purpose": "",
+    "tags": "tools, utilities",
+    "size": "",
+    "purchaseDate": "2026-10-31",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/utilities/instant-save-load-376934",
+    "status": "Active"
+  },
+  {
     "id": "284aacbc-f8bf-4eee-8bff-8b2358bbe857",
     "publisher": "CCodeHamster",
     "asset": "Simple Mirror Tool",
