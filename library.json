@@ -1,5 +1,47 @@
 [
   {
+    "id": "5e7c19ca-9096-4812-a790-acd4ce916176",
+    "publisher": "hheyheythere",
+    "asset": "Weather FX Free - Rain & Snow Sampler",
+    "category": "VFX / Shaders",
+    "purpose": "",
+    "tags": "vfx, shaders",
+    "size": "",
+    "purchaseDate": "2026-11-02",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/vfx/shaders/weather-fx-free-rain-snow-sampler-412712",
+    "status": "Active"
+  },
+  {
+    "id": "3b8a9a58-5819-49f4-83fb-da0e87a8362d",
+    "publisher": "TDTanuki Digital",
+    "asset": "TENKOKU Dynamic Sky",
+    "category": "Tools / Particles & Effects",
+    "purpose": "",
+    "tags": "tools, particles & effects",
+    "size": "",
+    "purchaseDate": "2026-11-02",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/particles-effects/tenkoku-dynamic-sky-34435",
+    "status": "Active"
+  },
+  {
+    "id": "e288c8a0-825d-4900-8fd6-7bb0f4d920f1",
+    "publisher": "CreaTuMundo",
+    "asset": "URP Dynamic Weather System",
+    "category": "Tools / Particles & Effects",
+    "purpose": "",
+    "tags": "tools, particles & effects",
+    "size": "",
+    "purchaseDate": "2026-11-02",
+    "lastUpdated": "",
+    "version": "",
+    "url": "https://assetstore.unity.com/packages/tools/particles-effects/urp-dynamic-weather-system-370650",
+    "status": "Active"
+  },
+  {
     "id": "47776c1d-190d-414d-8ac7-a0cabbfec6d7",
     "publisher": "TSTeam Scalte",
     "asset": "Instant Save & Load",
