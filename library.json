@@ -1,5 +1,33 @@
 [
   {
+    "id": "597c4568-f035-447c-95e1-4ad04fe7d757",
+    "publisher": "ithappy",
+    "asset": "Casino FREE - Low Poly Asset Pack",
+    "category": "3D / Environments",
+    "purpose": "",
+    "tags": "3d, environments",
+    "size": "102.2 MB",
+    "purchaseDate": "2026-11-06",
+    "lastUpdated": "2026-07-30",
+    "version": "1.0",
+    "url": "https://assetstore.unity.com/packages/3d/environments/casino-free-low-poly-asset-pack-393074",
+    "status": "Active"
+  },
+  {
+    "id": "99914df1-2d03-4ebd-808f-8dd199713ad5",
+    "publisher": "Ilumisoft",
+    "asset": "Minesweeping - Game Template",
+    "category": "Templates / Packs",
+    "purpose": "",
+    "tags": "templates, packs",
+    "size": "518.2 KB",
+    "purchaseDate": "2026-11-06",
+    "lastUpdated": "2025-04-29",
+    "version": "1.3",
+    "url": "https://assetstore.unity.com/packages/templates/packs/minesweeping-game-template-179529",
+    "status": "Active"
+  },
+  {
     "id": "45c09626-2207-4a8a-8f7b-d7d00b91e3f9",
     "publisher": "LAYERLAB",
     "asset": "2D Minimal - Character Maker",
