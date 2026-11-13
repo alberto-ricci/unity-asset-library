@@ -6,129 +6,121 @@
 <title>Unity Asset Library</title>
 <style>
   :root {
-    --header: #2F5496;
-    --bg: #f7f8fa;
-    --card: #ffffff;
-    --border: #e2e2e2;
-    --text: #222;
-    --muted: #666;
+    color-scheme: light dark;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --bg: #f3f5f8; --surface: #ffffff; --surface-2: #eef1f6;
+    --border: #dde2ea; --border-strong: #c5cdd9;
+    --text: #18202e; --text-2: #4b5567; --text-3: #6b7486;
+    --accent: #2f5496; --accent-soft: #e6edf8; --accent-soft-text: #24426f;
+    --focus: rgba(47, 84, 150, 0.35);
+    --danger: #c0392b; --danger-bg: #fdecea;
+    --shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16191f; --surface: #1f232b; --surface-2: #272c35;
+      --border: #323844; --border-strong: #434a58;
+      --text: #e8ebf0; --text-2: #b4bbc8; --text-3: #8b93a3;
+      --accent: #6f9be8; --accent-soft: #24304a; --accent-soft-text: #b9cdf3;
+      --focus: rgba(111, 155, 232, 0.45);
+      --danger: #ef7b6d; --danger-bg: #3a2220;
+      --shadow: none;
+    }
   }
   * { box-sizing: border-box; }
-  body {
-    font-family: -apple-system, Segoe UI, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    margin: 0;
-    padding: 24px 16px 60px;
+  [hidden] { display: none !important; }
+  body { margin: 0; padding: 32px 16px 64px; font: 14px/1.45 var(--font); color: var(--text); background: var(--bg); }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  h1 { margin: 0 0 4px; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
+  #meta { font-size: 13px; color: var(--text-3); font-variant-numeric: tabular-nums; }
+  header { margin-bottom: 20px; }
+
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  input, select {
+    min-height: 38px; padding: 8px 12px; font: 14px var(--font); color: var(--text);
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 8px;
   }
-  header {
-    max-width: 1000px;
-    margin: 0 auto 20px;
-  }
-  h1 {
-    color: var(--header);
-    font-size: 24px;
-    margin: 0 0 4px;
-  }
-  #meta {
-    font-size: 13px;
-    color: var(--muted);
-  }
-  .toolbar {
-    max-width: 1000px;
-    margin: 0 auto 16px;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-  #search {
-    flex: 1;
-    min-width: 200px;
-    padding: 10px 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
-  }
-  select {
-    padding: 10px 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 14px;
-    background: #fff;
-  }
-  table {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background: var(--card);
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-  }
+  input { flex: 1; min-width: 220px; }
+  input::placeholder { color: var(--text-3); }
+  input:hover, select:hover { border-color: var(--text-3); }
+  input:focus-visible, select:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--focus); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+
+  .table-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow); overflow: clip; }
+  table { width: 100%; border-collapse: collapse; }
   thead th {
-    background: var(--header);
-    color: #fff;
-    text-align: left;
-    padding: 10px 12px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+    position: sticky; top: 0; z-index: 1; background: var(--surface-2); color: var(--text-2);
+    text-align: left; padding: 10px 14px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--border);
   }
-  tbody td {
-    padding: 10px 12px;
-    border-top: 1px solid var(--border);
-    font-size: 13px;
-    vertical-align: top;
-  }
-  tbody tr:hover { background: #f4f7fb; }
+  tbody td { padding: 11px 14px; border-top: 1px solid var(--border); font-size: 13px; vertical-align: top; }
+  tbody tr:first-child td { border-top: none; }
+  tbody tr:hover { background: var(--surface-2); }
+  td.publisher, td.category { color: var(--text-2); }
+  td.date { color: var(--text-3); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  th.date { white-space: nowrap; }
+
+  a.asset-link { color: var(--text); font-weight: 600; text-decoration: none; }
+  a.asset-link:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  .purpose { display: block; font-size: 12px; color: var(--text-3); margin-top: 2px; }
   .tag {
-    display: inline-block;
-    background: #eef2f7;
-    color: var(--header);
-    border-radius: 10px;
-    padding: 1px 8px;
-    font-size: 11px;
-    margin: 1px 3px 1px 0;
+    display: inline-block; margin: 1px 4px 2px 0; padding: 1px 8px; border-radius: 999px;
+    font-size: 11px; background: var(--accent-soft); color: var(--accent-soft-text);
   }
-  a.asset-link { color: var(--header); text-decoration: none; }
-  a.asset-link:hover { text-decoration: underline; }
-  .purpose { display: block; font-size: 11px; color: var(--muted); margin-top: 2px; }
-  #empty {
-    max-width: 1000px;
-    margin: 40px auto;
-    text-align: center;
-    color: var(--muted);
-    font-size: 14px;
+  .badge {
+    display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; vertical-align: 1px;
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+    background: var(--danger-bg); color: var(--danger);
   }
+  #empty { margin: 48px auto; text-align: center; color: var(--text-3); }
+
+  /* Phones: each row becomes a card, with the column name before each value. */
+  @media (max-width: 640px) {
+    body { padding: 20px 12px 48px; }
+    thead { display: none; }
+    tbody tr { display: block; padding: 12px 14px; border-top: 1px solid var(--border); }
+    tbody tr:first-child { border-top: none; }
+    tbody td { display: flex; gap: 10px; padding: 2px 0; border: none; }
+    tbody td.tags { display: block; }
+    tbody td.tags::before { display: inline-block; width: 72px; margin-right: 10px; }
+    select { flex: 1; }
+    tbody td:empty { display: none; }
+    tbody td:first-child { display: block; margin-bottom: 4px; }
+    tbody td:not(:first-child)::before { content: attr(data-label); flex: 0 0 72px; color: var(--text-3); font-size: 12px; }
+  }
+  @media (prefers-reduced-motion: no-preference) { tbody tr { transition: background-color 0.12s; } }
 </style>
 </head>
 <body>
+<div class="wrap">
   <header>
     <h1>Unity Asset Library</h1>
-    <div id="meta">Loading…</div>
+    <div id="meta" role="status">Loading…</div>
   </header>
 
   <div class="toolbar">
-    <input id="search" type="text" placeholder="Search by name, publisher, category, or tag…">
-    <select id="categoryFilter">
+    <input id="search" type="search" placeholder="Search by name, publisher, category or tag" aria-label="Search assets">
+    <select id="categoryFilter" aria-label="Filter by category">
       <option value="">All categories</option>
     </select>
   </div>
 
-  <table id="table" style="display:none">
-    <thead>
-      <tr>
-        <th>Asset</th>
-        <th>Publisher</th>
-        <th>Category</th>
-        <th>Tags</th>
-        <th>Date</th>
-      </tr>
-    </thead>
-    <tbody id="tbody"></tbody>
-  </table>
-  <div id="empty" style="display:none">No assets logged yet.</div>
+  <div class="table-wrap" id="table" hidden>
+    <table>
+      <thead>
+        <tr>
+          <th>Asset</th>
+          <th>Publisher</th>
+          <th>Category</th>
+          <th>Tags</th>
+          <th class="date">Date</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <div id="empty" hidden>No assets logged yet.</div>
+</div>
 
   <script>
     // This page reads library.json from the SAME directory it's served
@@ -204,15 +196,15 @@
       var empty = document.getElementById("empty");
 
       if (visible.length === 0) {
-        table.style.display = "none";
-        empty.style.display = "block";
+        table.hidden = true;
+        empty.hidden = false;
         empty.textContent = library.length === 0
           ? "No assets logged yet."
           : "No matches for that search.";
         return;
       }
-      table.style.display = "table";
-      empty.style.display = "none";
+      table.hidden = false;
+      empty.hidden = true;
 
       for (var i = 0; i < visible.length; i++) {
         var item = visible[i];
@@ -233,6 +225,12 @@
           link.title = "No direct link saved -- searches the Asset Store for this name";
         }
         assetTd.appendChild(link);
+        if (item.status === "Deprecated") {
+          var badge = document.createElement("span");
+          badge.className = "badge";
+          badge.textContent = "Deprecated";
+          assetTd.appendChild(badge);
+        }
         if (item.purpose) {
           var purposeEl = document.createElement("span");
           purposeEl.className = "purpose";
@@ -242,11 +240,17 @@
 
         var publisherTd = document.createElement("td");
         publisherTd.textContent = item.publisher;
+        publisherTd.className = "publisher";
+        publisherTd.setAttribute("data-label", "Publisher");
 
         var categoryTd = document.createElement("td");
         categoryTd.textContent = item.category;
+        categoryTd.className = "category";
+        categoryTd.setAttribute("data-label", "Category");
 
         var tagsTd = document.createElement("td");
+        tagsTd.className = "tags";
+        tagsTd.setAttribute("data-label", "Tags");
         var tagParts = (item.tags || "").split(",");
         for (var t = 0; t < tagParts.length; t++) {
           var tagText = tagParts[t].replace(/^\s+|\s+$/g, "");
@@ -259,6 +263,8 @@
 
         var dateTd = document.createElement("td");
         dateTd.textContent = item.purchaseDate || "";
+        dateTd.className = "date";
+        dateTd.setAttribute("data-label", "Bought");
 
         tr.appendChild(assetTd);
         tr.appendChild(publisherTd);
