@@ -1,5 +1,19 @@
 [
   {
+    "id": "dd8b402d-7e3b-4e0f-a28f-7e6080500111",
+    "publisher": "Nollie Inward Game Assets",
+    "asset": "Padlock",
+    "category": "3D / Props",
+    "purpose": "",
+    "tags": "3d, props",
+    "size": "23.5 MB",
+    "purchaseDate": "2026-11-13",
+    "lastUpdated": "2022-09-08",
+    "version": "1.0",
+    "url": "https://assetstore.unity.com/packages/3d/props/padlock-231052",
+    "status": "Active"
+  },
+  {
     "id": "3468bc0f-8339-49ca-a287-0e7d54f0d388",
     "publisher": "Pathiral",
     "asset": "Screen Damage",
