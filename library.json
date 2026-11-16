@@ -1,5 +1,33 @@
 [
   {
+    "id": "0f207cc7-1b8c-4a77-ac2d-efd70b664a08",
+    "publisher": "Flight Paper Studio",
+    "asset": "Input Prompt Display",
+    "category": "Tools / GUI",
+    "purpose": "",
+    "tags": "tools, gui",
+    "size": "5.0 MB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2023-12-04",
+    "version": "1.0.0",
+    "url": "https://assetstore.unity.com/packages/tools/gui/input-prompt-display-267761",
+    "status": "Active"
+  },
+  {
+    "id": "2b6b7f71-b590-421f-b9b8-d3818d8225b8",
+    "publisher": "Alan Robinson",
+    "asset": "GamePad and Keyboard Input Sprites for TextMesh Pro",
+    "category": "2D / GUI / Icons",
+    "purpose": "",
+    "tags": "2d, gui, icons",
+    "size": "2.4 MB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2025-06-09",
+    "version": "1.1",
+    "url": "https://assetstore.unity.com/packages/2d/gui/icons/gamepad-and-keyboard-input-sprites-for-textmesh-pro-310114",
+    "status": "Active"
+  },
+  {
     "id": "455a85d8-d148-429c-af58-8b5040d0ca63",
     "publisher": "Cartoon VFX by Wallcoeur",
     "asset": "VFX URP - Fire Package",
