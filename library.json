@@ -1,5 +1,33 @@
 [
   {
+    "id": "58d676ea-cfab-4213-a500-1db94f84a9b3",
+    "publisher": "The PolynestLab",
+    "asset": "Low Poly Living Room Pack (71 Models) - Cozy Interior Furniture & Props",
+    "category": "3D / Props / Interior",
+    "purpose": "",
+    "tags": "3d, props, interior",
+    "size": "1.5 MB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2026-04-17",
+    "version": "1.1.0",
+    "url": "https://assetstore.unity.com/packages/3d/props/interior/low-poly-living-room-pack-71-models-cozy-interior-furniture-prop-320366",
+    "status": "Active"
+  },
+  {
+    "id": "d5a2057a-59e8-4c14-93d3-d74b02bee0fa",
+    "publisher": "3Digitalis",
+    "asset": "Low Poly Interior Props Pack | 3Digitalis",
+    "category": "3D / Props",
+    "purpose": "",
+    "tags": "3d, props",
+    "size": "14.1 MB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2026-08-21",
+    "version": "1.0",
+    "url": "https://assetstore.unity.com/packages/3d/props/low-poly-interior-props-pack-3digitalis-400108",
+    "status": "Active"
+  },
+  {
     "id": "0f207cc7-1b8c-4a77-ac2d-efd70b664a08",
     "publisher": "Flight Paper Studio",
     "asset": "Input Prompt Display",
@@ -6785,7 +6813,7 @@
     "purchaseDate": "2026-06-28",
     "lastUpdated": "2026-05-11",
     "version": "1.0",
-    "url": "https://assetstore.unity.com/packages/slug/379484",
+    "url": "https://assetstore.unity.com/packages/3d/characters/animals/free-pack-cartoon-dog-cat-379484",
     "status": "Active"
   },
   {
@@ -9641,7 +9669,7 @@
     "purchaseDate": "2026-09-21",
     "lastUpdated": "2022-01-05",
     "version": "2.0",
-    "url": "https://assetstore.unity.com/packages/slug/20897",
+    "url": "https://assetstore.unity.com/packages/3d/characters/creatures/gambler-cat-20897",
     "status": "Active"
   },
   {
