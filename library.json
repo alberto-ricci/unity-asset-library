@@ -1,5 +1,47 @@
 [
   {
+    "id": "bdd4a32e-bfe6-4dbf-a89d-83de546d4d05",
+    "publisher": "Marco Siino",
+    "asset": "Cartoon Car - Free",
+    "category": "3D / Vehicles / Land",
+    "purpose": "",
+    "tags": "3d, vehicles, land",
+    "size": "331.6 KB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2022-05-23",
+    "version": "1.0",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/land/cartoon-car-free-38743",
+    "status": "Active"
+  },
+  {
+    "id": "4f0770af-7b7c-45ee-9c43-9f5535e2b8ed",
+    "publisher": "OlyPoly",
+    "asset": "FREE Cartoon Car Pack - Simple Vehicles",
+    "category": "3D / Vehicles / Land",
+    "purpose": "",
+    "tags": "3d, vehicles, land",
+    "size": "1.9 MB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2025-05-13",
+    "version": "1.3",
+    "url": "https://assetstore.unity.com/packages/3d/vehicles/land/free-cartoon-car-pack-simple-vehicles-282425",
+    "status": "Active"
+  },
+  {
+    "id": "45a7d24f-f0a2-420a-8a72-4f747fdef54d",
+    "publisher": "PolyOne Studio",
+    "asset": "Free Pack - Lowpoly Animal",
+    "category": "3D / Props",
+    "purpose": "",
+    "tags": "3d, props",
+    "size": "247.5 KB",
+    "purchaseDate": "2026-11-16",
+    "lastUpdated": "2026-09-08",
+    "version": "1.0",
+    "url": "https://assetstore.unity.com/packages/3d/props/free-pack-lowpoly-animal-405472",
+    "status": "Active"
+  },
+  {
     "id": "26853ef2-ee8c-4155-9ca0-097bd6080a76",
     "publisher": "Luceed Studio",
     "asset": "Little Guys - Free Sample",
